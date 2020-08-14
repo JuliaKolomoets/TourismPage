@@ -1,0 +1,780 @@
+/*ПЕРВАЯ СТРАНИЦА ABOUT US */
+
+
+@media only screen and (max-width: 1024px) {
+    .section_story {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .presentation {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .mobile-menu{
+        z-index: -1;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .container.section_story p {
+        font-size: 14px;
+    }
+
+    .info_hotel {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .presentation .container {
+        padding: 20px 0;
+    }
+
+    .presentation_arial_hotel {
+        padding-bottom: 10px;
+    }
+
+    .presentation_arial_hotel {
+        flex-wrap: wrap;
+        justify-content: center;
+        flex-direction: row;
+        display: inline-block;
+        text-align: center;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+    .info_hotel h3 {
+        font-size: 20px;
+    }
+
+    .info_hotel p {
+        font-size: 14px;
+    }
+
+    .footer_section {
+        flex-wrap: wrap;
+        justify-content: center;
+        flex-direction: column;
+        display: inline-block;
+        text-align: center;
+    }
+
+    .video_section:after {
+        font-size: 70px;
+        margin-left: -35px;
+        margin-top: -35px;
+    }
+
+    footer .footer_section .sign_up form input {
+        right: 17px;
+
+    }
+
+    footer .footer_section .sign_up form i {
+        left: 207px;
+
+    }
+}
+
+@media only screen and (max-width: 414px) {
+    .header_information a img {
+        width: 90px;
+    }
+
+    .open-button {
+        top: 28px;
+    }
+
+    .about_us .container {
+        padding: 100px 0;
+    }
+
+    .about_us .container h1 {
+        font-size: 40px;
+    }
+
+    .video_section:after {
+        font-size: 50px;
+        margin-left: -25px;
+        margin-top: -25px;
+    }
+
+    .section_story p {
+        font-size: 12px;
+    }
+
+    .section_story h2 {
+        font-size: 25px;
+    }
+
+    .ui-tabs .ui-tabs-nav .ui-tabs-anchor {
+        font-size: 14px;
+    }
+
+    .footer_section .connect_us h4 {
+        font-size: 18px;
+    }
+
+    .footer_section .sign_up h4 {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .video_section:after {
+        font-size: 40px;
+        margin-left: -20px;
+        margin-top: -20px;
+    }
+
+    .presentation .container .text_arial_hotel p {
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+
+    .ui-tabs .ui-tabs-nav {
+        margin-bottom: 10px;
+    }
+
+    .ui-widget {
+        font-size: 13px;
+    }
+
+    .ui-tabs .ui-tabs-nav .ui-tabs-anchor {
+        font-size: 12px;
+        padding-left: 6px;
+        padding-right: 6px;
+    }
+
+    .container.section_story p {
+        font-size: 10px;
+        margin-bottom: 10px;
+    }
+
+    .container.section_story h2 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+}
+
+@media only screen and (max-width: 320px) {
+    .header_information a img {
+        width: 70px;
+    }
+
+    .open-button {
+        top: 22px;
+        width: 25px;
+    }
+
+    .ui-widget {
+        font-size: 10px;
+    }
+
+    .info_hotel p {
+        font-size: 10px;
+        margin-bottom: 10px;
+    }
+
+    .info_hotel h3 {
+        font-size: 17px;
+        margin-bottom: 10px;
+    }
+
+    .footer_section .connect_us h4 {
+        font-size: 15px;
+    }
+
+    .footer_section .sign_up h4 {
+        font-size: 15px;
+    }
+
+    .tripadvisor p {
+        font-size: 12px;
+    }
+
+    footer .footer_section .links_info ul li a {
+        font-size: 12px;
+    }
+}
+
+/*ВТОРАЯ СТРАНИЦА CONTACT US*/
+@media only screen and (max-width: 768px) {
+    .section_contact_us h2 {
+        text-align: center;
+    }
+
+    .information_form form {
+        margin: 0 auto;
+    }
+
+    .information_form form button {
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+
+    .examples {
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (max-width: 636px) {
+    .form_section .container.section_contact_us .information_form form input {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 414px) {
+    .background_contact_us .container h1 {
+        font-size: 40px;
+    }
+
+    .background_contact_us .container {
+        padding: 100px 0;
+    }
+
+    .form_section .section_contact_us {
+        padding: 40px 15px;
+    }
+
+    .form_section .section_contact_us h2 {
+        font-size: 20px;
+    }
+
+    .form_section .section_contact_us .information_form .examples p {
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+
+    .map iframe {
+        height: 300px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .map iframe {
+        height: 200px;
+    }
+
+    .information_form form input {
+        min-width: 250px;
+        width: 100%;
+    }
+}
+
+/*ТРЕТЬЯ СТРАНИЦА DELUXE ROOM*/
+@media only screen and (max-width: 1024px) {
+    .information_about_room {
+        margin: 0 auto;
+    }
+
+    .room_reservation {
+        margin: 0 auto;
+        margin-top: 13px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .reservation_deluxe_room .information_about_room .free_services .wrap_service {
+        min-width: 100px;
+    }
+
+    .reservation_deluxe_room .information_about_room .free_services .wrap_service p {
+        font-size: 16px;
+    }
+
+    .reservation_deluxe_room .information_about_room .free_services .wrap_service span {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 414px) {
+    .section_deluxe_room {
+        padding: 100px 0;
+    }
+
+    .section_deluxe_room h1 {
+        font-size: 40px;
+    }
+
+    .reservation_deluxe_room h2 {
+        font-size: 20px;
+    }
+
+    .reservation_deluxe_room span {
+        font-size: 14px;
+    }
+
+    .reservation_deluxe_room {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .reservation_deluxe_room .information_about_room .free_services .wrap_service p {
+        font-size: 12px;
+    }
+
+    .reservation_deluxe_room .information_about_room .free_services .wrap_service span {
+        font-size: 12px;
+    }
+
+    .reservation_deluxe_room .information_about_room .free_services .wrap_service {
+        min-width: 70px;
+    }
+
+    .reservation_deluxe_room .information_about_room .discription p {
+        font-size: 14px;
+    }
+
+    .reservation_deluxe_room .room_reservation .form_reservation h2 {
+        font-size: 18px;
+    }
+
+    .reservation_deluxe_room .room_reservation .form_reservation form input {
+        font-size: 14px;
+    }
+
+    .reservation_deluxe_room .room_reservation .form_reservation form select {
+        font-size: 14px;
+    }
+
+    .reservation_deluxe_room .room_reservation .form_reservation form button {
+        font-size: 14px;
+    }
+
+    .reservation_deluxe_room .room_reservation .direct_reservation img {
+        width: 50px;
+    }
+
+    .reservation_deluxe_room .room_reservation .direct_reservation .phone_number {
+        font-size: 16px;
+    }
+
+    .reservation_deluxe_room .room_reservation .direct_reservation span {
+        font-size: 14px;
+    }
+
+    .reservation_deluxe_room .information_about_room .discription h3 {
+        font-size: 21px;
+    }
+
+    @media only screen and (max-width: 320px) {
+        .reservation_deluxe_room h2 {
+            margin-right: 5px;
+        }
+    }
+}
+
+/*ЧЕТВЕРТАЯ СТРАНИЦА EVENTS*/
+
+@media only screen and (max-width: 768px) {
+    .container_events_item .block_events {
+        padding-left: 15px;
+        padding-right: 15px;
+        background-position: center;
+        background-size: cover;
+
+    }
+
+    .container_events_item .block_events h3 {
+        color: white;
+    }
+
+    .container_events_item .block_events p {
+        color: white;
+    }
+
+    .container_events_item .block_events .blur {
+        background: rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(8px);
+        max-width: 400px;
+        margin: 0 auto;
+        padding: 15px;
+    }
+
+    .container_events_item .block_events .time {
+        font-size: 14px;
+        color: white;
+    }
+
+    .container_events_item .block_events .calendar {
+        font-size: 16px;
+        color: white;
+    }
+
+    .container_events_item form input {
+        display: block;
+        margin: 0 auto;
+        min-width: 260px;
+    }
+
+    .container_events_item form button {
+        display: block;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+
+    .container_events_item form i {
+        left: 113px;
+        top: 26px;
+    }
+}
+
+@media only screen and (max-width: 414px) {
+    .section_events .container {
+        padding: 100px 0;
+    }
+
+    .section_events .container h1 {
+        font-size: 40px;
+    }
+
+    .container_events_item h2 {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    .container_events_item .block_events h3 {
+        font-size: 20px;
+        text-align: center;
+
+    }
+
+    .container_events_item .block_events p {
+        font-size: 12px;
+    }
+
+    .container_events_item .block_events .time {
+        font-size: 12px;
+        color: white;
+    }
+
+    .container_events_item .block_events .calendar {
+        font-size: 12px;
+        color: white;
+    }
+
+    .container_events_item .block_events .time:before {
+        font-size: 12px;
+    }
+
+    .container_events_item .block_events .calendar:before {
+        font-size: 12px;
+    }
+}
+
+/*ПЯТАЯ СТРАНИЦА RESERVATION*/
+
+@media only screen and (max-width: 1024px) {
+    .stages_of_booking {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .stages_of_booking .container {
+        padding: 40px 0;
+    }
+
+    .container.wrapper_form_reservation {
+        padding: 40px 0;
+    }
+
+    .stages_of_booking .container .item_booking p {
+        font-size: 19px;
+    }
+}
+
+@media only screen and (max-width: 414px) {
+    .block_reservation .container {
+        padding: 100px 0;
+    }
+
+    .block_reservation .container h1 {
+        font-size: 40px;
+    }
+
+    .stages_of_booking .container .item_booking .wrap_number {
+        width: 50px;
+        height: 50px;
+        display: block;
+    }
+
+    .stages_of_booking .container .item_booking .wrap_number .number {
+        font-size: 20px;
+        margin-top: -11px;
+        margin-left: -5px;
+    }
+
+    .stages_of_booking .container .item_booking p {
+        font-size: 10px;
+    }
+
+    .wrapper_form_reservation h2 {
+        font-size: 20px;
+    }
+
+    .wrapper_form_reservation form input {
+        width: 100%;
+    }
+
+    .wrapper_form_reservation form select {
+        width: 100%;
+    }
+
+    .wrapper_form_reservation form button {
+        width: 100%;
+    }
+
+    .container.wrapper_form_reservation {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .stages_of_booking .container .item_booking {
+        width: 85px;
+    }
+
+    .container.wrapper_form_reservation {
+        padding: 20px 15px;
+    }
+
+    .wrapper_form_reservation h2 {
+        font-size: 18px;
+        margin-bottom: 30px;
+    }
+
+    .wrapper_form_reservation form input {
+        font-size: 14px;
+    }
+
+    .wrapper_form_reservation form select {
+        font-size: 14px;
+    }
+
+    .wrapper_form_reservation form button {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    .stages_of_booking .container .item_booking {
+        width: 70px;
+    }
+}
+
+/*ШЕСТАЯ СТРАНИЦА ROOMS*/
+
+@media only screen and (max-width: 1024px) {
+    .section_info_room .presentation_rooms {
+        justify-content: space-around;
+    }
+}
+
+@media only screen and (max-width: 414px) {
+    .section_rooms {
+        padding: 100px 0;
+    }
+
+    .room_item {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+
+    .section_rooms h1 {
+        font-size: 40px;
+    }
+
+    .section_info_room .container {
+        padding: 20px 15px;
+    }
+
+    .section_info_room .presentation_rooms .room_item h3 {
+        font-size: 20px;
+    }
+
+    .section_info_room .presentation_rooms .room_item .price {
+        font-size: 16px;
+        margin-top: 10px;
+    }
+
+    .section_info_room .presentation_rooms .room_item span {
+        font-size: 12px;
+    }
+
+    .section_info_room .presentation_rooms .room_item p {
+        font-size: 12px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
+
+/*СЕДЬМАЯ СТРАНИЦА TOURISM PAGE*/
+
+@media only screen and (max-width: 1024px) {
+    .about_bedroom {
+        display: inline-block;
+        text-align: center;
+    }
+
+    .section_about_bedroom {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .about_bedroom .bedroom_first img {
+        display: inline-block;
+        width: 100%;
+        height: auto;
+    }
+
+    .about_bedroom .bedroom_second img {
+        display: none;
+    }
+
+    .about_bedroom .bedroom_second a.book_btn {
+        text-align: center;
+    }
+
+    .about_hotel {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .section_activities a {
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .main_section .booking_page .booking_form form {
+        display: inline-block;
+        margin: 0 auto;
+    }
+
+    .main_section .booking_page .booking_form form button {
+        margin-top: 10px;
+    }
+    .section_about_bedroom .about_bedroom {
+        display: block;
+    }
+    .section_about_bedroom .bedroom_info{
+        min-width: auto;
+    }
+    .about_bedroom .bedroom_info a.book_btn{
+        margin-bottom: 50px;
+        display: inline-block;
+    }
+}
+@media only screen and (max-width: 992px) {
+
+}
+@media only screen and (max-width: 768px) {
+    .main_section .booking_page .booking_form form button {
+        min-width: 240px;
+        padding: 15px;
+    }
+}
+
+@media only screen and (max-width: 414px) {
+    .owl-carousel .owl-stage{
+
+    }
+    .main_section .booking_page .booking_form form input {
+        margin-top: 10px;
+    }
+
+    .main_section .booking_page {
+        padding: 100px 15px;
+    }
+
+    .main_section .booking_page h1 {
+        font-size: 33px;
+    }
+
+    .main_section .booking_page p {
+        font-size: 15px;
+    }
+
+    .main_section .booking_page a.book_btn {
+        font-size: 20px;
+    }
+
+    .main_section .booking_page .booking_form {
+        top: 155px;
+    }
+
+    .main_section .booking_page .booking_form h3 {
+        font-size: 26px;
+    }
+
+    .main_section .booking_page .booking_form p {
+        font-size: 14px;
+        margin: 20px 0;
+    }
+
+    .main_section .booking_page .booking_form form input {
+        font-size: 14px;
+        width: 100%;
+    }
+
+    .main_section .booking_page .booking_form form button {
+        font-size: 14px;
+        width: 100%;
+    }
+
+    .about_hotel {
+        padding: 100px 15px 50px 15px;
+    }
+
+    .about_hotel h2.title_info {
+        font-size: 25px;
+    }
+
+    .about_hotel p {
+        font-size: 12px;
+    }
+
+    .about_bedroom .bedroom_info h2 {
+        margin-bottom: 20px;
+        font-size: 25px;
+    }
+
+    .section_activities {
+        padding: 40px 15px;
+    }
+
+    .section_activities h2.title_info {
+        font-size: 25px;
+    }
+
+    .section_activities a {
+        margin: 0 auto;
+    }
+
+    .section_activities .activities .slide_up span:first-of-type {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .section_activities .activities .slide_up span:last-of-type {
+        font-size: 12px;
+    }
+
+    .about_bedroom .bedroom_info a.book_btn {
+        font-size: 18px;
+    }
+
+    .section_activities a img {
+        width: 100%;
+    }
+}
